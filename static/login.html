@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - REDDESK</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="login">REDDESK</h1> <br>
+            <div class="login-card">
+                <h2>Bienvenido</h2>
+                <form id="loginForm">
+                    <div class="input-group">
+                        <input type="text" id="username" placeholder="Usuario" required>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" id="password" placeholder="Contraseña" required>
+                    </div>
+                    <button type="submit">Ingresar</button>
+                    <a href="#" class="forgot-password">Olvidé mi contraseña</a>
+                </form>
+                <p id="message" class="message"></p>
+            </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>

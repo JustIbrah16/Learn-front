@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container-mis-proyectos {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.busqueda-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.busqueda-container input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.busqueda-container button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+}
+
+.busqueda-container button:hover {
+    background-color: #45a049;
+}
+
+.proyectos-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.proyecto-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.proyecto-card:hover {
+    transform: translateY(-5px);
+}
+
+.proyecto-card h3 {
+    color: #333;
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.proyecto-card p {
+    color: #666;
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+.resumen-tickets-container {
+    margin-top: 30px;
+}
+
+.resumen-card {
+    background: #e3f2fd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.resumen-card h3 {
+    color: #1565c0;
+    margin: 0;
+    font-size: 1.4em;
+}
+
+.resumen-card p {
+    color: #444;
+    margin: 5px 0;
+}
